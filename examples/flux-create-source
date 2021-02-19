@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+ORIG_DIR="$(pwd)"
+cd "$(dirname "$0")"
+BIN_DIR="$(pwd)"
+
+trap "cd '${ORIG_DIR}'" EXIT
+
+flux create source git podinfo \
+  --url=https://github.com/stefanprodan/podinfo \
+  --branch=master \
+  --interval=30s \
+  --export > podinfo-source.yaml
