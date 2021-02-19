@@ -4,4 +4,4 @@ kind: Kustomization
 bases:
   - ../../../../repositories
 
-namespace: infra
+namespace: common
