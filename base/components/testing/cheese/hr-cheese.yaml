@@ -8,8 +8,7 @@ spec:
       chart: ./charts/cheese
       sourceRef:
         kind: GitRepository
-        name: flux-system
-        namespace: flux-system
+        name: self
   values:
     baseHostname: 127.0.0.1.nip.io
   interval: 1m0s
