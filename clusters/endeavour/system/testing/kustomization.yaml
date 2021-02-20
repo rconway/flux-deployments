@@ -4,5 +4,7 @@ kind: Kustomization
 bases:
   - ../../../../base/components/testing
 
+namespace: testing
+
 patchesStrategicMerge:
 - ./patch-ingress.yaml
