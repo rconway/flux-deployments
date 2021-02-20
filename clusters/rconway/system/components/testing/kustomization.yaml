@@ -8,3 +8,6 @@ resources:
   - ./namespace.yaml
 
 namespace: testing
+
+patchesStrategicMerge:
+  - ./patch-cheese-ingress.yaml
