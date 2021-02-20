@@ -8,7 +8,7 @@ spec:
       chart: ./charts/cheese
       sourceRef:
         kind: GitRepository
-        name: self
+        name: rconway-flux-deployments
   values:
     baseHostname: 127.0.0.1.nip.io
   interval: 1m0s
