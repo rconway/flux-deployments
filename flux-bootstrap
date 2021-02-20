@@ -10,5 +10,5 @@ flux bootstrap github \
   --owner=$GITHUB_USER \
   --repository=flux-deployments \
   --branch=main \
-  --path=./clusters/minikube \
+  --path=./clusters/rconway \
   --personal
