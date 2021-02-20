@@ -8,4 +8,4 @@ spec:
       sourceRef:
         namespace: repos
   values:
-    baseHostname: cheese.192.168.49.2.nip.io
+    baseHostname: cheese.192.168.59.2.nip.io
