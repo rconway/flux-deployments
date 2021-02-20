@@ -4,4 +4,7 @@ kind: Kustomization
 bases:
   - ../../../../base/repositories
 
+resources:
+  - ./namespace.yaml
+
 namespace: repos
