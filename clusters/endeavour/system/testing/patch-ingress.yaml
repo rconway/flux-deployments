@@ -4,4 +4,4 @@ metadata:
   name: cheese
 spec:
   values:
-    baseHostname: 192.168.49.2.nip.io
+    baseHostname: fred.192.168.49.2.nip.io
