@@ -4,4 +4,4 @@ kind: Kustomization
 bases:
   - ../../../base
 
-namespace: testing
+namespace: default
