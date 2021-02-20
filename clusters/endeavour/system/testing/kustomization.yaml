@@ -5,4 +5,4 @@ bases:
   - ../../../../base/components/testing/cheese
 
 patchesStrategicMerge:
-- patch_ingress.yaml
+- ./patch-ingress.yaml
