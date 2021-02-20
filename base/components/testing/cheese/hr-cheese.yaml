@@ -11,5 +11,5 @@ spec:
         name: flux-system
         namespace: flux-system
   values:
-    baseHostname: 127.0.0.2.nip.io
+    baseHostname: 127.0.0.1.nip.io
   interval: 1m0s
