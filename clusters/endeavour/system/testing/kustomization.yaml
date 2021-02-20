@@ -3,3 +3,6 @@ kind: Kustomization
 
 bases:
   - ../../../../base/components/testing/cheese
+
+patchesStrategicMerge:
+- patch_ingress.yaml
