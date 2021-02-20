@@ -3,5 +3,9 @@ kind: HelmRelease
 metadata:
   name: cheese
 spec:
+  chart:
+    spec:
+      sourceRef:
+        namespace: repos
   values:
     baseHostname: cheese.192.168.49.2.nip.io
