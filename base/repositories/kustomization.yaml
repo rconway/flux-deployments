@@ -3,5 +3,3 @@ kind: Kustomization
 
 resources:
   - ./helmrepo-jetstack.yaml
-
-namespace: repositories
