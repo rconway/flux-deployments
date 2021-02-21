@@ -9,6 +9,7 @@ spec:
       sourceRef:
         kind: GitRepository
         name: rconway-flux-deployments
+        namespace: repos
   values:
     baseHostname: cheese.192.168.49.2.nip.io
   interval: 1m0s
