@@ -10,5 +10,5 @@ spec:
         kind: GitRepository
         name: rconway-flux-deployments
   values:
-    baseHostname: 127.0.0.1.nip.io
+    baseHostname: cheese.192.168.49.2.nip.io
   interval: 1m0s
