@@ -1,0 +1,8 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: cheese
+  namespace: testing
+spec:
+  values:
+    baseHostname: cheese.192.168.49.2.nip.io
