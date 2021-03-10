@@ -1,0 +1,9 @@
+
+hostname: 192.168.49.2.nip.io
+
+image:
+  # imagePullPolicy: Always
+  image: eoepca/jupyter-demo
+
+service:
+  port: 80

@@ -1,0 +1,19 @@
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: jupyter
+  namespace: demo
+spec:
+  chart:
+    spec:
+      chart: ./charts/jupyter
+      sourceRef:
+        kind: GitRepository
+        name: rconway-flux-deployments
+        namespace: repos
+  values:
+    hostname: 192.168.49.2.nip.io
+    image:
+      image: rconway/jupyter:1.1
+  interval: 1m0s
