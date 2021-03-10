@@ -15,6 +15,6 @@ spec:
   values:
     hostname: 192.168.49.2.nip.io
     image:
-      imagePullPolicy: IfNotPresent
-      image: rconway/jupyter:1.1
+      # imagePullPolicy: IfNotPresent
+      image: rconway/jupyter:latest
   interval: 1m0s
